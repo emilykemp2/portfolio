@@ -1,0 +1,307 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+	
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico.png" />
+<link href="portfolio.css" rel="stylesheet" type="text/css">
+<link href="responsive.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata|Sarabun|Inter|Raleway|Bakbak+One|Shippori+Antique|Bebas+Neue|Fira+Sans|Rubik+Mono+One">
+	
+<script src="https://kit.fontawesome.com/82f8f9166e.js" crossorigin="anonymous"></script>
+<title>Portfolio</title>
+	
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	
+	
+<style>
+	.years {
+	padding: 0;
+	margin: 9px 0px 26px;
+}
+
+</style>
+	
+<script language="javascript">	
+
+$(document).ready(function() {
+	$("#arrow").click(function() {	
+		$([document.documentElement, document.body]).animate({
+        	scrollTop: 950
+    	}, 600);
+	});	
+	$("#nav1").click(function() {	
+		$([document.documentElement, document.body]).animate({
+        	scrollTop: 950
+    	}, 600);
+	});	
+	$("#nav2").click(function() {	
+		$([document.documentElement, document.body]).animate({
+        	scrollTop: 1620
+    	}, 600);
+	});	
+	$("#arrow1").click(function() {	
+		$([document.documentElement, document.body]).animate({
+        	scrollTop: 1620
+    	}, 600);
+	});	
+	$("#nav3").click(function() {	
+		$([document.documentElement, document.body]).animate({
+        	scrollTop: 3030
+    	}, 600);
+	});	
+	$("#arrow2").click(function() {	
+		$([document.documentElement, document.body]).animate({
+        	scrollTop: 3030
+    	}, 600);
+	});	
+	$("#nav4").click(function() {	
+		$([document.documentElement, document.body]).animate({
+        	scrollTop: 3680
+    	}, 600);
+	});
+	$("#arrow3").click(function() {	
+		$([document.documentElement, document.body]).animate({
+        	scrollTop: 3680
+    	}, 600);
+	});
+	
+	
+	$(window).scroll(function(){
+      if ($(this).scrollTop() > 50) {
+         $('#nav').addClass('scroll-nav');
+	  } else {
+         $('#nav').removeClass('scroll-nav');
+      }
+	});
+	 
+	
+//	$("#nofavs").show();
+	$("#job2").hide();
+	$("#job3").hide();
+	
+	$("#bluegrace").click(function() {	
+		$("#job1").hide();
+		$("#job3").hide();
+		$("#job2").show();
+		$("#bluegrace").addClass("selected");
+		$("#jenis").removeClass("selected");
+		$("#fletch").removeClass("selected");
+	});
+	
+	$("#jenis").click(function() {	
+		$("#job2").hide();
+		$("#job1").hide();
+		$("#job3").show();
+		$("#jenis").addClass("selected");
+		$("#bluegrace").removeClass("selected");
+		$("#fletch").removeClass("selected");
+	});
+	
+	$("#fletch").click(function() {	
+		$("#job2").hide();
+		$("#job3").hide();
+		$("#job1").show();
+		$("#fletch").addClass("selected");
+		$("#jenis").removeClass("selected");
+		$("#bluegrace").removeClass("selected");
+	});
+	
+	
+});
+
+</script>
+		
+</head>
+
+<body>
+	
+	<header>
+		<ul id="nav">
+			<li><a href="index.html"><img src="eklogo2.png" alt="Logo" width="45" height="50"></a></li>
+			<ul id="contain">
+				<li id="nav1" class="onsection" href="">1. About</li>
+				<li id="nav2" href="">2. Projects</li>
+				<li id="nav3" href="">3. Experience</li>
+				<li id="nav4" href="">4. Contact</li>
+				<li class="resume"><a class="resume" target="_blank" href="EmilyKempSiteResume.pdf">Resume</a></li>
+			</ul>
+		</ul>
+	</header>
+	
+	<ul id="icon-list" orientation="right">
+		<hr style="height:150px;border-color: #a4c6f1;">
+		<li><a href="https://www.linkedin.com/in/emily-kemp-webdeveloper/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+		<li><a href="https://app.joinhandshake.com/stu/users/26268036" target="_blank"><i class="fas fa-handshake"></i></a></li>
+		<li><a href="EmilyKempSiteResume.pdf" target="_blank"><i class="fas fa-file"></i></a></li>
+		<hr style="height:150px;border-color: #a4c6f1;">
+	</ul>
+	
+	<div id="wrapper">
+	
+	<div id="hero">
+		<div id="bigtext"><h1 id="notname">Hello, I'm</h1><h1 id="name">Emily Kemp.</h1></div>
+		<h3>I am a web developer currently pursuing a BS in computer science at Tufts University.</h3>
+		<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90%" id="blobSvg">
+  		<defs>
+		<linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+		  <stop offset="0%" style="stop-color: rgb(238, 205, 163);"></stop>
+		  <stop offset="100%" style="stop-color: rgb(239, 98, 159);"></stop>
+		</linearGradient>
+	  </defs>
+	  <path id="blob" d="M414,303Q334,356,274,382.5Q214,409,169,360Q124,311,117,246.5Q110,182,153.5,100Q197,18,296,43Q395,68,444.5,159Q494,250,414,303Z" fill="url(#gradient)"></path></svg>
+		<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75%" id="blobSvgs">
+	  <defs>
+		<linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+		  <stop offset="0%" style="stop-color: rgb(238, 205, 163);"></stop>
+		  <stop offset="100%" style="stop-color: rgb(239, 98, 159);"></stop>
+		</linearGradient>
+	  </defs>
+	  <path id="blobs" d="M424,293.5Q354,337,316,373.5Q278,410,229,390.5Q180,371,142,337Q104,303,65,236Q26,169,80,109Q134,49,204.5,78.5Q275,108,356.5,100Q438,92,466,171Q494,250,424,293.5Z" fill="none" stroke-width="7px" stroke="url(#gradient)">
+			
+		 <i id="arrow" class="fa fa-arrow-down" style="display: inline-block; align-items: center; color:#a4c6f1; z-index:100000; width: 50px; height: 50px; position:absolute;"></i>
+		 
+		</path>
+	</svg>
+	
+	</div>
+
+	<div id="content">
+	<section id="about">
+		<h2>1. About</h2>
+		<div id="abdiv">
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi, my name is Emily Kemp and I am an aspiring full stack web developer with a passion for sleek design. I love to combine functionality and clean to create websites and web apps with a sleek, user-focused experience.<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am currently a second-year computer science student at Tufts University - Go Jumbos! I work as a digital content creator for <a target="_blank" href="https://fletcher.tufts.edu/">The Fletcher School</a> (a grad school at Tufts), perfecting my UI skills and getting valuabe branding and ADA experience. I am also a graphic designer for multiple clubs on campus: Check out our student-run cooking magazine <a target="_blank" href="https://thepalmier.net/recipes/panic-nachos">The Palmier</a> for an up-close look at some of my recent creations.<br/><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am hoping to pursue new web development projects as well as summer internship opportunities to gain more experience with UI/UX design or front-end development. </p>
+			<img src="Em-profile-removebg.png">
+		</div>
+		
+		<div id="col" style="align-content: flex-start; justify-content: flex-start;">
+		<div class="columns">
+			<h4>Here Are Some of my Favorite Technologies:</h4>
+			<ul>
+				<li>Javascript/JQuery</li>
+				<li>MongoDB</li>
+				<li>Node.js</li>
+				<li>MySQL</li>
+				<li>PHP</li>
+			</ul>
+		</div>
+		<div class="columns">
+			<h4>These are my Favorite Design Tools!</h4>
+			<ul>
+				<li>Adobe Illustrator</li>
+				<li>Adobe XD</li>
+				<li>Canva</li>
+				<li>Figma</li>
+				<li>Adobe Photoshop</li>
+			</ul>
+		</div>
+		</div>
+	</section>
+	
+	 <i id="arrow1" class="fa fa-arrow-down"></i>
+	
+	<section id="projects" style="height: 1215px">
+		<h2>2. Featured Projects</h2>
+		<div class="proj">
+			<div class="child-div">
+				<h6>Recipe Finder Web App Design & Development</h6>
+				<p>Web app that generates dessert recipes from Spoonify API based on user's ingredient search. Stores user-submitted recipes in database and allows users to "favorite" recipes, which are stored in browser.</p>
+				<ul class="tech-list">
+					<li>Spoonify API</li>
+					<li>MongoDB</li>
+					<li>Node.js</li>
+					<li>JQuery</li>
+				</ul>
+			</div>
+			<a target="_blank" style="width: 150%;" href="https://make-desserts.herokuapp.com">
+			<img class="centered" src="Screen Shot 2022-01-26 at 9.29.36 PM.png" style="width: 100%; height: 100%; border-radius: 10px;"></a>
+					
+		</div>
+		
+		<div class="proj">
+			<a href="https://alexandra-scott.github.io/webmastas/index.html" target="_blank" style="width: 150%;"><img src="Screen Shot 2022-01-26 at 9.24.56 PM.png" style="width: 100%; height: 100%; border-radius: 10px;"></a>
+			<div id="proj2" class="child-div">
+				<h6>Travel Agency Website Design & Development</h6>
+				<p>Interactive, responsive website created from digital mockups. Offers consistent branding and UI design, as well as form validation and advanced Javascript functionalities.</p>
+				<ul class="tech-list" style="justify-content: flex-end">
+					<li>Javascript</li>
+					<li>HTML5</li>
+					<li>CSS</li>
+					<li>Adobe XD</li>
+				</ul>
+			</div>
+			
+		</div>
+		
+		<div class="proj">
+			<div class="child-div" style="height: 158px; transform: translateX(26%);">
+				<h6>Mobile App Design</h6>
+				<p>Complete UX/UI design for food delivery service mobile app. Created with  Adobe XD. Click on the app mockup to the right to see the entire design.</p>
+				<ul class="tech-list">
+					<li>Adobe XD</li>
+					<li>Mapbox</li>
+					<li>Unsplash</li>
+				</ul>
+			</div>
+			<a target="_blank" style="width: 150%; text-align: center;" href="https://xd.adobe.com/view/6a55c547-df1c-4b35-a121-f9fa62ce51d7-3f06/?fullscreen"><img src="sprout-mock.png" style="width: 37%; height: 30%; z-index: -100; border-radius: 10px"></a>
+		</div>
+	</section>
+	
+	<i id="arrow2" class="fa fa-arrow-down"></i>	
+		
+	<section id="experience">
+		<h2>3. Places I've Worked</h2>
+		<div id="jobs">
+			<div id="job1">
+			<h7>The Fletcher School of Law and Diplomacy at Tufts University</h7>
+			<p class="years" style="padding: 0; margin: 9px 0px 26px;">Digital Media Intern - <span style="font-style: italic">August 2021-Present</span></p>
+			<ul class="job-bullet">
+				<li>Responsible for creating infographics, flyers, other digital content for the Public Relations team</li>
+				<li>Adhered to specific branding and ADA Compliance guidelines</li>	
+				<li>Worked with Adobe Illustrator, Adobe InDesign, and Canva</li>
+			</ul>
+			</div>
+			<div id="job2">
+			<h7>BlueGrace Logistics</h7>
+				<p class="years">Intern - <span style="font-style: italic">June 2020-August 2020</span></p>
+			<ul class="job-bullet">
+				<li>Collaborated with accounting team of 3rd party logistics provider</li>
+				<li>Communicated directly with customers to
+					handle payment disputes and invoicing</li>	
+				<li>Mastered new software and systems to help facilitate aquisition</li>
+			</ul>
+			</div>
+			<div id="job3">
+			<h7>Jeni's Splendid Ice Cream</h7>
+			<p class="years">Ambassador - <span style="font-style: italic">June 2020-Present</span></p>
+			<ul class="job-bullet">
+				<li>Retail position at the first Jeni’s store in Florida, member of a 4-5 person team</li>
+				<li>Handled customer service in fast-paced work environment</li>	
+				<li>Recorded highest-earning sales day in store history</li>
+			</ul>
+			</div>
+			
+		</div>
+		<ul id="companies">
+				<li class="selected" id="fletch">The Fletcher School</li>
+				<li id="bluegrace">BlueGrace Logistics</li>
+				<li id="jenis">Jeni's Ice Cream</li>		
+			</ul>
+	</section>
+		
+	<i id="arrow3" class="fa fa-arrow-down"></i>
+	
+	<section id="contact">
+		<h2 style="text-align: center">4. Let's Connect!</h2>
+		<div>		
+			<p>I am always looking for new projects and connections! Send me a message via email or <a href=https://www.linkedin.com/in/emily-kemp-webdeveloper/ target="_blank">Linkedin,</a> and I will get back to you ASAP :)</p>
+			
+		</div>
+		<a class="email-link" href="mailto:emily.kemp@tufts.edu" target="_blank">Say Hello<i class="fas fa-envelope" style="padding-left: 9px;"></i></a>
+	</section>
+	</div>
+		<footer><i class="fas fa-code"></i>&nbsp;&nbsp;Designed and Built by Emily Kemp</footer>
+	</div>
+	
+</body>
+</html>

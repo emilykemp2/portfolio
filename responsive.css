@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+@media (min-width: 1375px) {
+	#hero {
+		transform: translateX(40%);
+	}	
+}
+*/
+
+/*
+@media (max-width: 1575px) {
+	#hero {
+		transform: translateX(30%);
+	}	
+}
+*/
+
+@media (max-width: 1390px) {
+	#blobSvgs, #blobSvg {
+		width: 300px;
+	}	
+	#blobSvgs {
+		left: 320px;
+	}
+}
+
+@media (max-width: 1260px) {
+	#blobSvgs, #blobSvg {
+		display: none;
+	}
+	#col {
+		flex-wrap: nowrap;
+	}
+	.columns {
+		padding: 20px;
+	}
+	#about {
+		height: 700px;
+		margin: 20px;
+	}
+	#projects, #experience, #contact {
+		margin: 20px;
+	}
+	#abdiv {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	
+	#about img {
+		padding: 20px;
+		min-height: 250px;
+		min-width: 250px;
+	}
+}
+
+@media (max-width: 960px) {
+	#about {
+		height: 800px;
+	}
+	.proj {
+		flex-wrap: wrap;
+	}
+	.child-div {
+		transform: translateX(0);
+	}
+}
+
+@media (max-width: 855px) {
+	#blobSvg {
+		display: none;
+	}	
+	#hero {
+		padding: 0;
+	}
+	#arrow {
+		left: 80px;
+	}
+	#icon-list {
+		display: none;
+	}
+	
+	
+}
+
+@media (max-width: 760px) {
+/*
+	#wrapper {
+		padding-right: 10px;
+	}
+*/
+	#name {
+		font-size: 60pt;
+	}
+	#notname {
+		font-size: 30pt;
+	}
+	
+}
+
